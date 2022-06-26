@@ -1,0 +1,71 @@
+#logo {
+    float: left;
+}
+
+#discuss {
+    padding: 7px;
+    color: white;
+    border: 1px solid #5364FF;
+    width: 98px;
+    border-radius: 25px;
+    background-color: #5364FF;
+}
+
+#digital {
+    padding: 26px;
+}
+
+#pic {
+    float: right;
+    width: 1150px;
+    height: 900.43px;
+}
+
+#tech {
+    color: #5364FF;
+}
+
+.menu {
+    clear: both;
+    display: flex;
+    align-items: flex-end;
+    padding: 4px;
+    text-decoration: none;
+    color: #252525;
+}
+
+.menu:hover {
+    color: #5364FF;
+}
+.section {
+    display: flex;
+    align-items: center;
+}
+nav,
+h4 {
+    font-family: 'Gotham Pro', Times, serif;
+    font-size: 20px;
+    color: #252525;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 160px;
+    color: #252525;
+}
+html {
+	height: 100%;
+	font-size: 100%;
+}
+body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font: 16px/24px Arial, sans-serif;
+		background-color: white;
+		color: #252525;
+}

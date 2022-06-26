@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexcontainer {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    height: 30vh;
+    width: 100vw;
+}
+.flexp {
+    align-self: flex-start;
+    justify-self: center;
+}
+.flexp_s {
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 30vw;
+}
+.aside {
+    float: right;
+    height: 30vh;
+    width: 40vw;
+}
